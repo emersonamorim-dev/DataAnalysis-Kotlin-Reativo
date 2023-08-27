@@ -60,6 +60,7 @@ Salvar Dados no Cassandra:
 * Payload: json
 
 {
+
   "Id": "ID_único_do_produto",
   
   "productName": "Nome do Produto",
@@ -67,6 +68,7 @@ Salvar Dados no Cassandra:
   "productPrice": 100.0,
   
   "quantitySold": 10
+  
 }
 
 - Enviar Produto para o Pulsar
@@ -77,6 +79,7 @@ Salvar Dados no Cassandra:
 * Payload: json
 
 {
+
   "Id": "ID_único_do_produto",
 
   "productName": "Nome do Produto",
@@ -84,6 +87,7 @@ Salvar Dados no Cassandra:
   "productPrice": 100.0,
 
   "quantitySold": 10
+  
 }
 
 - Analisar e Enviar Produto
@@ -94,6 +98,7 @@ Salvar Dados no Cassandra:
 * Payload: json
 
 {
+
   "Id": "ID_único_do_produto",
 
   "productName": "Nome do Produto",
@@ -101,6 +106,7 @@ Salvar Dados no Cassandra:
   "productPrice": 100.0,
 
   "quantitySold": 10
+  
 }
 
 - Obter Produto por ID
@@ -119,11 +125,13 @@ id: ID do produto que você deseja recuperar.
 
 Payload: json
 {
+
   "productName": "Nome Atualizado do Produto",
 
   "productPrice": 150.0,
 
   "quantitySold": 15
+  
 }
 
 - Deletar Produto
