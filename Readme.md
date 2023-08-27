@@ -58,7 +58,7 @@ Salvar Dados no Cassandra:
 * Endpoint: /data-analysis/save
 
 * Payload: json
-```
+``` 
 {
 
   "Id": "ID_único_do_produto",
@@ -77,7 +77,7 @@ Salvar Dados no Cassandra:
 * Endpoint: /data-analysis/send
 
 * Payload: json
-
+```  
 {
 
   "Id": "ID_único_do_produto",
@@ -89,14 +89,14 @@ Salvar Dados no Cassandra:
   "quantitySold": 10
   
 }
-
+```
 - Analisar e Enviar Produto
 
 * Método: POST
 * Endpoint: /data-analysis/analyze-and-send
 
 * Payload: json
-
+```  
 {
 
   "Id": "ID_único_do_produto",
@@ -108,7 +108,7 @@ Salvar Dados no Cassandra:
   "quantitySold": 10
   
 }
-
+```
 - Obter Produto por ID
 
 Método: GET
@@ -124,6 +124,7 @@ id: ID do produto que você deseja recuperar.
 * id: ID do produto que você deseja atualizar.
 
 Payload: json
+```  
 {
 
   "productName": "Nome Atualizado do Produto",
@@ -133,7 +134,7 @@ Payload: json
   "quantitySold": 15
   
 }
-
+```
 - Deletar Produto
 
 * Método: DELETE
