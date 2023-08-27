@@ -58,7 +58,7 @@ Salvar Dados no Cassandra:
 * Endpoint: /data-analysis/save
 
 * Payload: json
-
+```
 {
 
   "Id": "ID_único_do_produto",
@@ -70,7 +70,7 @@ Salvar Dados no Cassandra:
   "quantitySold": 10
   
 }
-
+```
 - Enviar Produto para o Pulsar
 * Método: POST
 
