@@ -1,7 +1,6 @@
 ## Data Analysis Application - Kotlin WebFLUX 📊
 Codifciação em Kotlin para aplicação com uso de programação reativa construída com framework Spring WebFlux, Apache Cassandra um banco de dados NoSQL  e Apache Pulsar para fazer a parte de mensagens assíncronas para análise de dados.
 
-
  ## Funcionalidades 🚀
 Análise de Dados: Processa e analisa dados em tempo real.
 Persistência com Cassandra: Armazena dados em um banco de dados NoSQL altamente escalável.
@@ -55,16 +54,17 @@ http://localhost:8080
 ## Endpoints 🌐
 Salvar Dados no Cassandra:
 
-Salvar Produto no Cassandra
-
 - Método: POST
 * Endpoint: /data-analysis/save
 
 Payload: json
 {
   "Id": "ID_único_do_produto",
+  
   "productName": "Nome do Produto",
+  
   "productPrice": 100.0,
+  
   "quantitySold": 10
 }
 
