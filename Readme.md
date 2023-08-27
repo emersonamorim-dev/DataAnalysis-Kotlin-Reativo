@@ -57,7 +57,8 @@ Salvar Dados no Cassandra:
 - Método: POST
 * Endpoint: /data-analysis/save
 
-Payload: json
+* Payload: json
+
 {
   "Id": "ID_único_do_produto",
   
@@ -73,7 +74,7 @@ Payload: json
 
 * Endpoint: /data-analysis/send
 
-Payload: json
+* Payload: json
 
 {
   "Id": "ID_único_do_produto",
@@ -90,7 +91,7 @@ Payload: json
 * Método: POST
 * Endpoint: /data-analysis/analyze-and-send
 
-Payload: json
+* Payload: json
 
 {
   "Id": "ID_único_do_produto",
@@ -131,3 +132,6 @@ Payload: json
 * Endpoint: /data-analysis/{id}
 * Parâmetros:
 * id: ID do produto que você deseja deletar.
+
+## Autor
+Emerson Amorim
