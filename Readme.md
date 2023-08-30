@@ -1,4 +1,4 @@
-## Data Analysis Application - Kotlin WebFLUX 📊
+## Data Analysis Application - Kotlin WebFLUX 📊 
 Codifciação em Kotlin para aplicação com uso de programação reativa construída com framework Spring WebFlux, Apache Cassandra um banco de dados NoSQL  e Apache Pulsar para fazer a parte de mensagens assíncronas para análise de dados.
 
  ## Funcionalidades 🚀
